@@ -9,4 +9,20 @@ var config = {
   firebase.initializeApp(config);
 
 
-  
+  var database = firebase.database();
+
+  var count =0;
+
+  $(document).on("click",".count-btn",function(){
+    count++;
+    console.log("Clicked it");
+    //set the reference to the database
+    database.ref().set({
+        counter: count
+    });
+  })
+
+//   $(".count-btn").on("click", function(){
+//    ;
+
+//   });
