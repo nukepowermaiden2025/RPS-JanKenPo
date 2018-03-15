@@ -11,21 +11,102 @@
     <title>Jan-Ken-Po</title>
   </head>
   <body>
-    <div class="container" style="background-image:url('https://goo.gl/Hj8HWt'); max-width:980; width:100%">
-      <div class="row sub-container"style="background-color:white; max-width:1080; width:100%; opacity:.8"> 
+   <!--  <div class="container" style="background-image:url('https://goo.gl/Hj8HWt');">
+     <div class="row sub-container"style="background-color:white; max-width:1080; width:100%; opacity:.8"> --> 
+      <div class="container" style="background-image:url('https://goo.gl/Hj8HWt')">
         
-        <div class="col-md-4">
+        <div class="row">
+          <div class="col">
+            <div class="jumbotron">
+              <p class="display-1 strong">Jan  - Ken  - Po </p>
+              <form class="form-inline">
+                <div class="form-group mx-lg-3 mb-2">
+                  <label for="name" class="sr-only">Name</label>
+                  <input type="name" class="form-control" id="name" placeholder="Name">
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">Confirm Challenger!</button>
+              </form>
+            
+            </div>
+          </div>
         </div>
-         <div class="col-md-4">
+        
+        
+        <div class="row">
+          <div class="col-6">
+            <div class="jumbotron">
+              <h1 class="display-4">Player 1</h1>
+            
+              <hr class="my-4">
+              <p>Waiting on Player 2.</p>
+              <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Jan</a>
+                <a class="btn btn-warning btn-lg" href="#" role="button">Ken</a>
+                <a class="btn btn-success btn-lg" href="#" role="button">Po</a>
+              </p>
+            </div>
+          </div>
+        
+          
+          <div class="col-6">
+            <div class="jumbotron">
+              <h1 class="display-4">Player 2</h1>
+            
+              <hr class="my-4">
+              <p>Waiting on Player 1.</p>
+              <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Jan</a>
+                <a class="btn btn-warning btn-lg" href="#" role="button">Ken</a>
+                <a class="btn btn-success btn-lg" href="#" role="button">Po</a>
+              </p>
+            </div>
+          </div>
         </div>
-         <div class="col-md-4">
+        
+        <div class="row">
+                  
+         <div class="col-2">
+         </div>
+                  
+         <div class="col-8">
+           <div class="jumbotron">
+           <p>This is where the animation will go.</p>
+           </div>
+         </div>
+           
+        <div class="col-2">
+         </div>
+           
         </div>
         
         
         
+        
+        <div class="row">
+          <div class="col-6"style="min-height:100%">
+           <div class="jumbotron">
+              <h1 class="display-4">Score Player 1:</h1>
+              <!-- <h1>Jan-Ken-Po (Rock Paper Scissors)</h1>
+              <button type="button" class="btn btn-dark count-btn">Challenge</button> -->
+            </div> 
+          </div>
+          
+          <div class="col-6"style="min-height:100%">
+           <div class="jumbotron">
+              <h1 class="display-4">Score Player 2:</h1>
+              <!-- <h1>Jan-Ken-Po (Rock Paper Scissors)</h1>
+              <button type="button" class="btn btn-dark count-btn">Challenge</button> -->
+            </div> 
+          </div>
+          
+        </div>
       </div>
+        
+        
+        
+    
       
-        <h1>Jan-Ken-Po (Rock Paper Scissors)</h1>
+       
     <!-- Input form for player to add themselves to the game -->
       
       
@@ -38,10 +119,6 @@
 
     <!-- <button class="count-btn">Click it!</button> -->
 
-    <button type="button" class="btn btn-dark count-btn">Dark</button>
-        
-       
-    </div>
      
     <!-- ADD FIREBASE -->
     <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
