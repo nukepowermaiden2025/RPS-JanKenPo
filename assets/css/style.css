@@ -1,0 +1,14 @@
+.jumbotron {
+    background-image:url('https://goo.gl/4eQoAA');
+    opacity:.95;
+    
+  }
+
+  p, h1, form {
+    text-align:center;
+  }
+
+  /* #name{
+      width: 300px;
+  } */
+
