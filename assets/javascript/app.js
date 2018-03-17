@@ -13,7 +13,9 @@ var config = {
 
   var count =0;
 
-  $(document).on("click","#count-btn",function(){
+  $(document).on("click",".count-btn",function(event){
+      event.preventDefault();
+
     count++;
     console.log("Clicked it");
     //set the reference to the database
