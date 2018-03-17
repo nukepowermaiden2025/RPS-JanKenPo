@@ -8,19 +8,19 @@ var config = {
   };
   firebase.initializeApp(config);
 
-//TEST Connection to Firebase
-//   var database = firebase.database();
+// TEST Connection to Firebase
+  var database = firebase.database();
 
-//   var count =0;
+  var count =0;
 
-//   $(document).on("click",".count-btn",function(){
-//     count++;
-//     console.log("Clicked it");
-//     //set the reference to the database
-//     database.ref().set({
-//         counter: count
-//     });
-//   })
+  $(document).on("click","#count-btn",function(){
+    count++;
+    console.log("Clicked it");
+    //set the reference to the database
+    database.ref().set({
+        counter: count
+    });
+  })
 
 
 //This a game to make rock paper scissors
