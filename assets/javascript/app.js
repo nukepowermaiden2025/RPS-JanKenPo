@@ -28,6 +28,8 @@ var config = {
 //This a game to make rock paper scissors
 //Two players login from one form
     //Will need toggle between player one and player two
+    // Take input from user form
+
 
 //Each player can log in
 //Player object will auto create
