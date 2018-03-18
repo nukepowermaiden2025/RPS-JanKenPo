@@ -25,10 +25,57 @@ var config = {
   })
 
 
-//This a game to make rock paper scissors
+//Rest game function
+
+//Render Player Object in Firebase
+
+//Player Message Object
+  //Waiting on Player1
+  //Waiting on Player2
+  //Game is full
+
+// Take input from user form
 //Two players login from one form
-    //Will need toggle between player one and player two
-    // Take input from user form
+//Function to take player input
+  //Create Player 1 object
+    //Name
+    //Player id from playerSlot array 1
+    //login time
+    //score
+    
+    
+  //Create Player 2 object
+    //Name
+    //Player id from playerSlot array 1
+    //login time
+    //score
+
+//Set player contraints to two at a time
+//Capture the players into an array
+//The person who enters there name first will get pushed to based on time captured
+  //first position
+//The person who enter there name second by the time capture
+  //second position
+  
+
+// Control the player slot with an array playerSlot=[1,2]
+  //if playerSlot.length>1 && < 2 flash waiting on player 2 otherwise flash both messages
+  //Assigned player a number once they hit submit and then playerSlot.slice
+  //Control the player slot by saying
+    //if playerSlot.length = 0
+      //flash "game is full message."
+    
+          
+
+//Turn count
+  //player1 turncount
+  //player2 turncount
+    //if player 1 turncount =0
+      //chose an option
+    //if player 2 turncount =0
+      //chose an option
+
+    
 
 
 //Each player can log in
